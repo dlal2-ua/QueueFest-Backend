@@ -19,7 +19,7 @@ const db = mysql2.createPool({
 
 const JWT_SECRET = 'queuefest_secret_2026';
 
-// ─── PUSH NOTIFICATIONS SETUP ───
+// ─── PUSH NOTIFICATION SETUP ───
 const webpush = require('web-push');
 
 if (!process.env.VAPID_PUBLIC_KEY || !process.env.VAPID_PRIVATE_KEY) {
