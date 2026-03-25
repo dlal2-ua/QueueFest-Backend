@@ -1,0 +1,12 @@
+# Ignorar todos los archivos y carpetas
+*
+
+# No ignorar este archivo .gitignore
+!.gitignore
+
+# No ignorar la carpeta contenedora (necesario para acceder al archivo dentro)
+!queuefest-api/
+
+# Ignorar todo dentro de queuefest-api/ excepto index.js
+# Como la regla * es recursiva, necesitamos des-ignorar explícitamente el archivo específico
+!queuefest-api/index.js
