@@ -416,7 +416,7 @@ app.patch('/api/pedidos/:id/estado', auth, async (req, res) => {
         console.error('Error enviando push:', pushErr);
       }
     }
-    // -- FIN NOTIFICACIÓN PUSH - marica --
+    // -- FIN NOTIFICACIÓN PUSH --
 
     res.json({ message: 'Estado actualizado correctamente' });
   } catch (err) {
