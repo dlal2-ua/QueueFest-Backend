@@ -200,7 +200,7 @@ app.delete('/api/admin/puestos/:id', auth, async (req, res) => {
 });
 
 
-// ==================== PRODUCTOSs ====================
+// ==================== PRODUCTOSss ====================
 
 app.get('/api/puestos/:id/productos', async (req, res) => {
   try {
