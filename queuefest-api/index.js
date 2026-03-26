@@ -758,7 +758,7 @@ app.post('/api/notifications/subscribe', auth, async (req, res) => {
   }
 });
 
-// Arrancar
+// Arrancar jbio gouyg
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server Express (Oracle VM) corriendo en puerto ${port}`);
